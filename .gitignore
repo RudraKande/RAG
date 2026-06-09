@@ -136,6 +136,16 @@ celerybeat.pid
 *.aof
 *.pid
 
+# Ignore docs content
+docs/*
+
+# Ignore vector database content
+chroma_db/*
+
+# But keep the directories themselves
+!docs/.gitkeep
+!chroma_db/.gitkeep
+
 # RabbitMQ
 mnesia/
 rabbitmq/
