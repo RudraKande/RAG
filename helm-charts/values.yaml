@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: rudrk/rag-app
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 8000
